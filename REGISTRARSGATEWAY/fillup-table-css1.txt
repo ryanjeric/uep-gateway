@@ -1,0 +1,132 @@
+table.fillup {
+width:90%;
+font-size:20px;
+border-collapse:collapse;
+margin:2% auto;
+}
+
+[fillup] {
+color:white;
+}
+
+.fillup tr td:nth-child(1) {
+width:20%;
+text-align:right;
+padding-right:10px;
+}
+
+.fillup tr td:nth-child(2) {
+background:maroon;
+padding:1%;
+width:25%;
+text-align:center;
+box-shadow: -5px 0px 5px -3px #3d3242, 5px 0 5px -3px  #3d3242;
+}
+
+.fillup tr td:nth-child(3) {
+padding-left:10px;
+}
+
+.fillup input:not(.button) {
+border-radius:8px;
+border:2px solid #f8ecba;
+height:30px;
+width:200px;
+padding-left:10px;
+}
+
+.fillup textarea {
+resize:none;
+width:200px;
+max-height:80px !important;
+font-size:16px;
+padding-left:8px;
+}
+
+/* --------------------------------- */
+
+table.fillup2 {
+	width:80%;
+	margin:2% auto;
+	border-spacing: 10px;
+	border-radius:5px;
+	font-size:16px;
+}
+
+.fillup2 tr.head  td{
+	padding-left:10px;
+	background:maroon;
+	color:#ddd;
+	font-weight:bold
+}
+
+.fillup2 td{
+width:50%;
+}
+
+.fillup2 input:not([type='radio']):not([type='submit']) {
+	height:35px;
+	border:1px solid #E18942;
+	padding-left:2%;
+	width:90%;
+	border-radius:5px;
+	outline:none;
+}
+
+.fillup2 input:required:invalid  {
+border:1px solid tomato;
+outline:none;
+}
+
+.fillup2 input:required:valid {
+outline:none;
+border:1px solid #00cc66;
+}
+
+.fillup2 select {
+	margin:0;
+	padding:0;
+	width:92.5%;
+	border:none;
+	height:35px;
+	border-radius:5px;
+	border:1px solid #00CC66;
+	outline:none;
+}
+
+.fillup2 .button {
+width:200px;
+}
+
+/* --------------------------------- */
+table.fillup-simple1 {
+			width:80%;
+			border-collapse:30px;
+			color:#111;
+			margin:0 auto 2% auto;
+			font-size:16px;
+		}
+			.fillup-simple1 tr:not(:last-child) td {
+				width:50%;
+				vertical-align: top;
+				border-bottom:1px solid maroon;
+				padding:1%;
+			}
+			.fillup-simple1 input[type='text'],
+			.fillup-simple1 input[type='number'],
+			.fillup-simple1 input[type='date'] {
+				width:80%;
+				height:25px;
+				padding-left:10px;
+				border:1px solid #ccc;
+			}
+			.fillup-simple1 textarea {
+				width:80%;
+				height:50px;
+				resize:none;
+				padding:5px 10px;
+				border:1px solid #ddd;
+			}
+			.fillup-simple1 select {
+				width:80%;
+			}

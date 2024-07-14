@@ -1,0 +1,78 @@
+table.fillup {
+width:90%;
+font-size:20px;
+border-collapse:collapse;
+margin:2% auto;
+}
+
+[fillup] {
+color:white;
+}
+
+.fillup tr td:nth-child(1) {
+width:20%;
+text-align:right;
+padding-right:10px;
+}
+
+.fillup tr td:nth-child(2) {
+background:maroon;
+padding:1%;
+width:25%;
+text-align:center;
+box-shadow: -5px 0px 5px -3px #3d3242, 5px 0 5px -3px  #3d3242;
+}
+
+.fillup tr td:nth-child(3) {
+padding-left:10px;
+}
+
+.fillup input:not(.button) {
+border-radius:8px;
+border:2px solid #f8ecba;
+height:30px;
+width:200px;
+padding-left:10px;
+}
+
+.fillup textarea {
+resize:none;
+width:200px;
+max-height:80px !important;
+font-size:16px;
+padding-left:8px;
+}
+
+/* --------------------------------- */
+table.fillup-simple1 {
+			width:80%;
+			border-collapse:30px;
+			color:#111;
+			margin:0 auto 2% auto;
+			font-size:16px;
+		}
+			.fillup-simple1 tr:not(:last-child) td {
+				width:50%;
+				vertical-align: top;
+				border-bottom:1px solid maroon;
+				padding:1%;
+			}
+			.fillup-simple1 input[type='text'],
+			.fillup-simple1 input[type='number'],
+			.fillup-simple1 input[type='date'],
+			.fillup-simple1 input[type='password'] {
+				width:80%;
+				height:25px;
+				padding-left:10px;
+				border:1px solid #ccc;
+			}
+			.fillup-simple1 textarea {
+				width:80%;
+				height:50px;
+				resize:none;
+				padding:5px 10px;
+				border:1px solid #ddd;
+			}
+			.fillup-simple1 select {
+				width:80%;
+			}

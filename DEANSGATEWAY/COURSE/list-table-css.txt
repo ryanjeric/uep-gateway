@@ -1,0 +1,112 @@
+span[section] {
+	display:inline-block;
+	width:80%;
+	border-top:1px dashed maroon;
+	border-bottom:1px dashed maroon;
+	font-family:sans-serif;
+	margin-bottom:2%;
+}
+
+/* -------------------------------------- */
+
+table.list {
+font-size:20px;
+border-collapse:collapse;
+width:90%;
+border-bottom:10px solid maroon;
+border:5px solid #ddd;
+overflow:hidden;
+font-size:17px;
+}
+	.list tr:first-child {
+	background:#ddd; 	color:maroon;
+	height:30px;
+	padding-left:10px;
+	font-weight:bold;
+	}
+	.list tr:nth-child(2) td {
+	background:#ddd; color:#222;
+	font-weight:bold;
+	text-align:center;
+	height:40px
+	
+	}
+	.list tr:nth-child(even):not(:nth-child(2)) {
+	text-align:center;
+	border-bottom:1px solid #eee;
+	}
+
+	.list tr:nth-child(odd):not(:nth-child(1)) {
+	text-align:center;
+	border-bottom:1px solid #eee;
+	}
+
+.list .new-or-add {
+float:right;
+margin-right:10px;
+}
+
+/* -------------------------------------- */
+
+table.simple-style1 {
+	width:90%;
+	border:5px solid #ddd;
+	border-collapse:collapse;
+	font-family:sans-serif;
+	font-size:17px;
+	color:#3b0819;
+}
+	.simple-style1 tr[head] {
+		background:#ddd;
+		height:50px;
+		font-size:25px;
+		font-weight:bold;
+	}
+	.simple-style1 tr td {
+		padding:0.5% 2%;
+		border-bottom:.5px solid #ddd;
+	}
+	
+/* -------------------------------------- */
+
+table.style-schedule {
+	position:relative;
+	width:90%;
+	border:1px solid #777;
+	border-collapse:collapse;
+	font-family:sans-serif;
+	font-size:15px;
+	z-index:2;
+}
+
+	.style-schedule tr[head] {
+		background:#ddd; color:#3b0819;
+		font-size:16px; font-weight:bold;
+		text-align:center;
+		height:50px;
+	}
+	.style-schedule tr[foot] {
+		background:#ddd; color:#3b0819;
+		font-size:16px;
+		text-align:center;
+		height:50px;
+	}
+	.style-schedule select {
+		height:25px;
+	}
+	.style-schedule tr td {
+		text-align:center;
+		padding:1% 0;
+		vertical-align:top;
+	}
+	.style-schedule input[type='number'] {
+		width:25px;
+		height:23px;
+	}
+	.style-schedule textarea {
+		min-width:178px;
+		max-width:178px;
+		min-height:60px;
+		max-height:200px;
+		resize-y:none;
+	}

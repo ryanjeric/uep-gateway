@@ -1,0 +1,49 @@
+
+[d4]
+{
+float:right;
+width:70%;
+margin:2%;
+}
+table[deansinfo] {
+	background:maroon;
+	border-collapse:collapse;
+	box-shadow:0 2px 5px black;
+	color:white;
+	text-align:right;
+}
+td
+{
+padding:10px;
+font-size:20px;
+}
+table[deansinfo] td:nth-child(even) {
+background:white;
+color:maroon;
+text-align:left;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  appearance: none; 
+  margin: 0; font-size:25px;
+}
+input[type=number] {
+-moz-appearance: textfield;font-size:25px;
+}
+input[type=text]
+{font-size:25px;
+width:200px
+} 
+[aa]
+{
+-moz-appearance: button;font-size:25px;
+padding:2px;
+text-decoration:none;
+color:black;
+}
+[wew]
+{
+float:right;
+width:300px
+}

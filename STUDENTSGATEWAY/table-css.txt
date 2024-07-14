@@ -1,0 +1,11 @@
+table.grading-withlab {
+	font-family: arial;
+	font-size:12px;
+	width:90%;
+	text-align:center;
+	color:black;
+}
+	.grading-withlab input[type='number'] {
+		width:22px;
+		padding-left:2px;
+	}
